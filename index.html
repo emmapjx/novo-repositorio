@@ -9,14 +9,21 @@
 <body> 
     <h1>Calculadora de Bhaskara</h1>
     <script> 
-        var a = parseFloat(window.prompt('Digite A'));
-        var b= parseFloat(window.prompt('Digite B'));
-        var c= parseFloat(window.prompt('Digite C'));
-        var delta= (b*b)-4*a*c;
+        var a = parseFloat(window.prompt('Digite valor de a'));
+        var b= parseFloat(window.prompt('Digite valor de b'));
+        var c= parseFloat(window.prompt('Digite valor de c'));
+        
+        var delta= b * b - 4 * a * c;
+        
         if (delta < 0) {
              window.alert("A equacao nao possui numeros reias");
+            
         } else{
-            var x1 = (-b)}
+            var x1 = (-b + Math.sqrt(delta)) / (2 * a)};
+            var x2 = (-b - Math.sqrt(delta)) / (2 * a)};
+
+        window.alert("Os resultados sao:" = x1.toFixed(2)+" e 2x = " = 2x.toFixed(2));
+        }
             
    </script>
 </body>
