@@ -9,12 +9,12 @@
     <h1>Calculadora de Bhaskara</h1>
     
     <script> 
-        var a = parseFloat(window.prompt("Digite valor de a"));
-        var b= parseFloat(window.prompt("Digite valor de b"));
-        var c= parseFloat(window.prompt("Digite valor de c"));
+        var a = Number(window.prompt("Digite valor de a"))
+        var b= Number(window.prompt("Digite valor de b"))
+        var c= Number(window.prompt("Digite valor de c"))
         
-        var delta= b * b - 4 * a * c;
-             window.alert("o valor de delta é: " +delta+);
+        var delta= b * b - 4 * a * c
+             window.alert("o valor de delta é: " +delta+)
         
             var x1 = (-b + Math.sqrt(delta)) / (2 * a);
             var x2 = (-b - Math.sqrt(delta)) / (2 * a);
