@@ -3,16 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport"content="width=device-width, initial-scale 1.0">
-        <title>emma</title>
+        <title>Calculadora de Bhaskara</title>
         <link rel="shortcut icon" href="https://www.iconarchive.com/download/i27117/ph03nyx/super-mario/Mushroom-1UP.ico" type="image/x-icon"/>
     </head>
 <body> 
+    <h1>Calculadora de Bhaskara</h1>
     <script> 
-        var A=Number(window.prompt('Digite A'))
-        var B=Number(window.prompt('Digite B'))
-        var C=Number(window.prompt('Digite C'))
-        var delta= B*B-4*A*B
-        window.alert('Resultado do delta:'"+delta+")
+        var a = parseFloat(window.prompt('Digite A'));
+        var b= parseFloat(window.prompt('Digite B'));
+        var c= parseFloat(window.prompt('Digite C'));
+        var delta= (b*b)-4*a*c;
+        if (delta < 0) {
+             window.alert("A equacao nao possui numeros reias");
+        } else{
+            var x1 = (-b)}
+            
    </script>
 </body>
 </html>
