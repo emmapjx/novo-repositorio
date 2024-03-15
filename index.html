@@ -8,7 +8,9 @@
     </head>
 <body> 
     <h1>Calculadora de Bhaskara</h1>
+    
     <script> 
+        function calcularBhaskara() {
         var a = parseFloat(window.prompt('Digite valor de a'));
         var b= parseFloat(window.prompt('Digite valor de b'));
         var c= parseFloat(window.prompt('Digite valor de c'));
@@ -19,11 +21,12 @@
              window.alert("A equacao nao possui numeros reias");
             
         } else{
-            var x1 = (-b + Math.sqrt(delta)) / (2 * a)};
-            var x2 = (-b - Math.sqrt(delta)) / (2 * a)};
+            var x1 = (-b + Math.sqrt(delta)) / (2 * a);
+            var x2 = (-b - Math.sqrt(delta)) / (2 * a);
 
         window.alert("Os resultados sao:" = x1.toFixed(2)+" e 2x = " = 2x.toFixed(2));
 
+        }
         }
         calcularBhaskara();
             
