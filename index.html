@@ -4,32 +4,25 @@
         <meta charset="UTF-8">
         <meta name="viewport"content="width=device-width, initial-scale 1.0">
         <title>Calculadora de Bhaskara</title>
-        <link rel="shortcut icon" href="https://www.iconarchive.com/download/i27117/ph03nyx/super-mario/Mushroom-1UP.ico" type="image/x-icon"/>
     </head>
 <body> 
     <h1>Calculadora de Bhaskara</h1>
     
     <script> 
-        function calcularBhaskara() {
-        var a = parseFloat(window.prompt('Digite valor de a'));
-        var b= parseFloat(window.prompt('Digite valor de b'));
-        var c= parseFloat(window.prompt('Digite valor de c'));
+        var a = parseFloat(window.prompt("Digite valor de a"));
+        var b= parseFloat(window.prompt("Digite valor de b"));
+        var c= parseFloat(window.prompt("Digite valor de c"));
         
         var delta= b * b - 4 * a * c;
         
         if (delta < 0) {
              window.alert("A equacao nao possui numeros reias");
-            
-        } else{
+        } else {
+            var raizDelta = Math.sqrt(delta);
             var x1 = (-b + Math.sqrt(delta)) / (2 * a);
             var x2 = (-b - Math.sqrt(delta)) / (2 * a);
 
-        window.alert("Os resultados sao:" = x1.toFixed(2)+" e 2x = " = 2x.toFixed(2));
-
-        }
-        }
-        calcularBhaskara();
-            
+        window.alert("Os resultados sao:" = x1.toFixed(2)+ " e 2x = " + 2x.toFixed(2));
    </script>
 </body>
 </html>
