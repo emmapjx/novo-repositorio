@@ -13,7 +13,16 @@
      var a = document.getElementById('area')
      function clicar(){
          a.innerText = 'clicou!'
-     }
+        }
+     function entrar(){
+            a.innerText = 'Entrou!'
+            a.style.backgroundColor = 'green' // Muda a cor de fundo ao passar o mouse
+        }
+
+     function sair(){
+            a.innerText = 'Saiu!'
+            a.style.backgroundColor = '#ccc' // Retorna à cor original ao tirar o mouse
+        }
      
  </script>
      
