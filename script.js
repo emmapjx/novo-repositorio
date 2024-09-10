@@ -37,7 +37,6 @@ function verificarDia() {
         
         case "domingo":
             respostaDia.innerHTML = "No domingo o vini come as veia do bingo";
-            imagemDia.src"imagens/domingo.jpg
             break;
         
         default:
