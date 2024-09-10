@@ -27,7 +27,7 @@ function verificarDia() {
         
         case "sexta":
         case "sexta-feira":
-            respostaDia.innerHTML = "slk, a semana toda em";
+            respostaDia.innerHTML = "Na sexta o vinicius se faz de besta";
             break;
         
         case "sábado":
