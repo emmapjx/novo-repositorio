@@ -36,7 +36,7 @@ function verificarDia() {
             break;
         
         case "domingo":
-            respostaDia.innerHTML = "No domingo o Vini come as véias do bingo";
+            respostaDia.innerHTML = "No domingo o Vini pega as véias do bingo";
             break;
         
         default:
